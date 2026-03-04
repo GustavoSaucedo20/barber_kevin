@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Barbería Kevin</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Times New Roman', Times, serif; /* Una fuente más clásica para barbería */
+            background-color: #333; /* Fondo oscuro de respaldo */
+            background-image: url('fondo_peluqueria.png'); /* Ruta a la imagen generada */
+            background-size: cover; /* Cubrir toda la pantalla */
+            background-position: center; /* Centrar la imagen */
+            color: white; /* Color de texto por defecto */
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Altura completa de la ventana */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Estilos de la tarjeta */
+        .tarjeta {
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.5); /* Sombra más pronunciada */
+            max-width: 500px;
+            color: #333; /* Color de texto dentro de la tarjeta */
+        }
+
+        /* Estilos del título */
+        h1 {
+            font-family: 'Georgia', serif; /* Fuente elegante para el título */
+            font-size: 3em;
+            color: #8B4513; /* Color marrón para el título */
+            text-transform: uppercase; /* Todo en mayúsculas */
+            letter-spacing: 2px; /* Espaciado entre letras */
+            margin-bottom: 20px;
+        }
+
+        /* Estilos del párrafo */
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        /* Estilos del botón */
+        button {
+            background-color: #8B4513; /* Color marrón para el botón */
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #A0522D; /* Color marrón más claro al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tarjeta">
+        <h1>BARBERÍA KEVIN</h1>
+        <p>Tu estilo, nuestra pasión. Ven a vivir la experiencia de un corte premium en el mejor ambiente. Ofrecemos cortes de cabello, barba y mucho más.</p>
+        <button onclick="saludar()">¡Reserva tu turno!</button>
+    </div>
+
+    <script>
+        // Lógica de JavaScript
+        function saludar() {
+            alert("¡Excelente elección! Redirigiendo al sistema de reservas...");
+            // Aquí podrías agregar código para redirigir a una página de reservas real
+        }
+    </script>
+
+</body>
+</html>
